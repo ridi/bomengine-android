@@ -46,7 +46,7 @@ public class ExceptionCaseController {
         }
 
         if (isReturnCharacterNode(nextNode) && isTagNode(nextOfNextNode)) {
-            Log.d("ExceptionCaseController", "case1 cleared!!");
+            Log.d(TAG, "case1 cleared!!");
             // 다음 노드를 잘라냄
             removeNextNode(node);
         }
@@ -59,7 +59,7 @@ public class ExceptionCaseController {
             return;
 
         if (isTagToFillWholePage(node) && nextNode.getTagType() == NodeTag.NODE_TAG_PAGE) {
-            Log.d("ExceptionCaseController", "case2 cleared!!");
+            Log.d(TAG, "case2 cleared!!");
             // 다음 노드를 잘라냄
             removeNextNode(node);
         }

@@ -4,12 +4,14 @@ import android.util.Log;
 
 public class Parser {
     private static final String TAG = "Parser";
-    private final int CHARACTER_TYPE_TEXT = 0;
-    private final int CHARACTER_TYPE_TAG = 1;
-    private final int PARSE_ATTR_INVALID_FORMAT = -1;
-    private final int PARSE_ATTR_OK = 0;
-    private final int PARSE_ATTR_END_OPNER = 1;
-    private final int PARSE_ATTR_END_FINISHED = 2;
+
+    private static final int CHARACTER_TYPE_TEXT = 0;
+    private static final int CHARACTER_TYPE_TAG = 1;
+    private static final int PARSE_ATTR_INVALID_FORMAT = -1;
+    private static final int PARSE_ATTR_OK = 0;
+    private static final int PARSE_ATTR_END_OPNER = 1;
+    private static final int PARSE_ATTR_END_FINISHED = 2;
+
     private Reader reader = null;
     private TagNode rootNode = null;
     private TagNode workingNode = null;

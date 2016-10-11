@@ -7,6 +7,8 @@ import android.util.Log;
 import java.util.ArrayList;
 
 public class LayoutManager {
+    private static final String TAG = "LayoutManager";
+
     public static final int PURPOSE_RENDERING = 0;
     public static final int PURPOSE_PAGING = 1;
 
@@ -637,7 +639,7 @@ public class LayoutManager {
         if (mContextStack.size() > 1)
             mContextStack.remove(mContextStack.size() - 1);
         else {
-            Log.d("LayoutManager", "context stack is empty.");
+            Log.d(TAG, "context stack is empty.");
         }
 
         applyContext();
