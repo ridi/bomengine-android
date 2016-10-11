@@ -1,4 +1,4 @@
-package com.initialcoms.ridi.reader.bom.engine;
+package com.ridi.viewer.reader.bom.engine;
 
 /*
  * 리디북스 뷰어엔진 V2에서의 예외처리

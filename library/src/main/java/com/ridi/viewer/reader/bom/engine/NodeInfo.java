@@ -1,4 +1,4 @@
-package com.initialcoms.ridi.reader.bom.engine;
+package com.ridi.viewer.reader.bom.engine;
 
 public class NodeInfo extends BomLocation {
     private static final long serialVersionUID = -7708016617938783103L;

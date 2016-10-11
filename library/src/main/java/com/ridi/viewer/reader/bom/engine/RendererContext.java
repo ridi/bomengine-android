@@ -1,4 +1,4 @@
-package com.initialcoms.ridi.reader.bom.engine;
+package com.ridi.viewer.reader.bom.engine;
 
 public class RendererContext {
     public static final int SUBSCRIPT_NONE = 0;
