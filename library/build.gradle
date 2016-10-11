@@ -5,12 +5,12 @@ group='com.github.ridibooks'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    buildToolsVersion '24.0.3'
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 24
+        targetSdkVersion 23
         versionCode 1
-        versionName "1.0"
+        versionName '1.0'
         consumerProguardFiles 'proguard-rules.pro'
     }
 }
