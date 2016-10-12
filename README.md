@@ -2,6 +2,8 @@
 BOM parser engine for Android platform
 
 ## Getting started
+[![Release](https://jitpack.io/v/ridibooks/bomengine-android.svg)](https://jitpack.io/#ridibooks/bomengine-android)
+
 This library is distributed by [jitpack](https://jitpack.io).
 
 You should add jitpack maven repository to build.gradle file of your root project.
@@ -20,7 +22,7 @@ Then you can include this library by adding dependency script to build.gradle fi
 ```
 dependencies {
     ...
-    compile 'com.github.ridibooks:bomengine-android:1.0.2'
+    compile 'com.github.ridibooks:bomengine-android:1.0.3'
     ...
 }
 ```
