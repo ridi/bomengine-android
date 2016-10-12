@@ -1,4 +1,4 @@
-package com.ridi.viewer.reader.bom.engine;
+package com.ridi.books.viewer.reader.bom.engine;
 
 import android.graphics.Bitmap;
 import android.graphics.Typeface;

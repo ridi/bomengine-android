@@ -20,7 +20,7 @@ Then you can include this library by adding dependency script to build.gradle fi
 ```
 dependencies {
     ...
-    compile 'com.github.ridibooks:bomengine-android:1.0.1' 
+    compile 'com.github.ridibooks:bomengine-android:1.0.2'
     ...
 }
 ```
