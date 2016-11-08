@@ -1,8 +1,10 @@
 # bomengine-android
+[![Build Status](https://travis-ci.org/ridibooks/bomengine-android.svg?branch=master)](https://travis-ci.org/ridibooks/bomengine-android)
+[![Release](https://jitpack.io/v/ridibooks/bomengine-android.svg)](https://jitpack.io/#ridibooks/bomengine-android)
+
 BOM parser engine for Android platform
 
 ## Getting started
-[![Build Status](https://travis-ci.org/ridibooks/bomengine-android.svg?branch=master)](https://travis-ci.org/ridibooks/bomengine-android)[![Release](https://jitpack.io/v/ridibooks/bomengine-android.svg)](https://jitpack.io/#ridibooks/bomengine-android)
 
 This library is distributed by [jitpack](https://jitpack.io).
 
