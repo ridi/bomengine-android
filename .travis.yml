@@ -6,7 +6,7 @@ android:
     - tools
     - tools
     - platform-tools
-    - build-tools-25.0.0
+    - build-tools-25.0.2
     - android-25
 
 script: ./gradlew assembleRelease
@@ -17,4 +17,3 @@ notifications:
     rooms:
       secure: DqBr4AYgUwbRS8o/P5ZKtbRCbB1FDYx8lfw7BzZPT0dNHda9lYQnI9P6Dc4lV8KciGlYlk13hDQ6ovW/cmtwUI9+LaDwmSgAzdG2YgKMgusBztuql+PXAAa5yEZNvgb74dUUP0WWURoT7gSs7G45Q9uyUIuN6eMh/bnYAk9IQauyeIWyJjNgJHmQJQC51zkO4OOEh4ZcAVsiNCVNSMSjQXBH8AG5JdT09aEFOHaPYOv9j+9y3kj6gmltcVHcqrDvqntLOYs2/ol/6hSJfIg4IU2Nw71yvH/Jze4kRO1myUbBqs5keMcGXq8np2ZxFTAGsRSlQVq2KWQYHYY5QG6gvr8uhris4ZOocDoon0Bg776dcHpsjbEKB7X6EvWLvHG+8QjFxaTYWhE8V4qnndYl91d3BYqa3pxOFoWZwST6Mx03Ifr7y+N4/M1NAGyAgj2va3I9o7T11Igo4He13dToBWLRnsQPn5jfroPWTUdQiDpySLykAnk9ZTs2zcrZ7SdaBFdnmeBlmJkbrqi0hlvytJ69qcISPhdeZg6LtTiUokh1mRqmTsf3a/rnp639A9NPlghPkKmydrPtf5OgpMDXU6zCUMPGme/RpLWSOeOXzfWWlRqwPHWpN6HZ8E7ItFz980UCs0ShB/daFEVjtIW7fZZxm/RmzCJmJQFfbJKWM1U=
     on_success: change
-
