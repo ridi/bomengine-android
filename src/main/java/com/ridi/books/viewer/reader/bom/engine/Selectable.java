@@ -13,7 +13,7 @@ public class Selectable {
     }
 
     public RectF getRect() {
-        return rect;
+        return new RectF(rect);
     }
 
     public NodeInfo getNodeInfo() {
