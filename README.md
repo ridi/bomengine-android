@@ -1,7 +1,7 @@
 # bomengine-android
 
-[![Build Status](https://travis-ci.org/ridibooks/bomengine-android.svg?branch=master)](https://travis-ci.org/ridibooks/bomengine-android)
-[![Release](https://jitpack.io/v/ridibooks/bomengine-android.svg)](https://jitpack.io/#ridibooks/bomengine-android)
+[![Build Status](https://travis-ci.org/ridi/bomengine-android.svg?branch=master)](https://travis-ci.org/ridi/bomengine-android)
+[![Release](https://jitpack.io/v/ridi/bomengine-android.svg)](https://jitpack.io/#ridi/bomengine-android)
 
 BOM parser engine for Android platform
 
@@ -25,7 +25,7 @@ Then you can include this library by adding dependency script to build.gradle fi
 ```
 dependencies {
     ...
-    compile 'com.github.ridibooks:bomengine-android:1.0.3'
+    compile 'com.github.ridi:bomengine-android:1.0.3'
     ...
 }
 ```
