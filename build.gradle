@@ -15,7 +15,7 @@ repositories {
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'com.github.ridibooks'
+group = 'com.github.ridi'
 version = '1.0.4'
 
 android {
