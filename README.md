@@ -25,7 +25,7 @@ Then you can include this library by adding dependency script to build.gradle fi
 ```
 dependencies {
     ...
-    compile 'com.github.ridi:bomengine-android:1.0.3'
+    compile 'com.github.ridi:bomengine-android:<version>'
     ...
 }
 ```
