@@ -62,15 +62,19 @@ public class Parser {
         return textnode;
     }
 
-    // 파싱
     public void parse() {
+        parse(false);
+    }
+
+    // 파싱
+    public void parse(boolean escapeTags) {
         int lastOffset = 0;
         StringBuilder parsedText = new StringBuilder("");
 
         while (reader.isReadable()) {
             char ch = reader.getCurrPosChar();
 
-            if (guessNextCharacterType(ch) == CHARACTER_TYPE_TAG) {
+            if (!escapeTags && guessNextCharacterType(ch) == CHARACTER_TYPE_TAG) {
                 // 태그가 아닐 경우 돌아갈 위치 기억
                 reader.rememberCurrPos();
 
