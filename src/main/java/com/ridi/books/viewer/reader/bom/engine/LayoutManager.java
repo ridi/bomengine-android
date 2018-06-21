@@ -43,7 +43,10 @@ public class LayoutManager {
     }
 
     public void restoreContext(NodeInfo from) {
-        TagNode node = (TagNode) nodeMgr.getNodeAtIndex(from.getNodeIndex()).getParent();
+        TagNode node = (TagNode) nodeMgr.getNodeAtIndex(from.getNodeIndex());
+        if (node != null) {
+            node = (TagNode) node.getParent();
+        }
         ArrayList<TagNode> nodes = new ArrayList<TagNode>();
         RendererContext context;
 
