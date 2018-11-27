@@ -46,7 +46,7 @@ install {
             licenses {
                 license {
                     name 'The MIT License'
-                    url 'https://opensource.org/licenses/mit-license.php'
+                    url 'https://opensource.org/licenses/MIT'
                     distribution 'repo'
                 }
             }
