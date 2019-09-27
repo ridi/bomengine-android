@@ -1,6 +1,6 @@
 # bomengine-android
 
-[![Build Status](https://travis-ci.org/ridi/bomengine-android.svg?branch=master)](https://travis-ci.org/ridi/bomengine-android)
+[![Build Status](https://travis-ci.com/ridi/bomengine-android.svg?branch=master)](https://travis-ci.com/ridi/bomengine-android)
 [![Release](https://jitpack.io/v/ridi/bomengine-android.svg)](https://jitpack.io/#ridi/bomengine-android)
 
 BOM parser engine for Android platform
